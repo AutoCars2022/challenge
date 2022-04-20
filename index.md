@@ -1,5 +1,12 @@
----
-layout: default
----
-# {{site.title}}
-{{site.description}}
+# Carotid Vessel Wall Segmentation and Atherosclerotic Lesion Diagnosis Challenge
+-------------------------
+
+## Challenge Abstract 
+Atherosclerosis is a leading cause of death worldwide, which occurs with luminal narrowing and plaque formation in multiple vascular beds, including carotid arteries. Early detection and proper treatment of carotid atherosclerosis can prevent the progression of cardiovascular disease. Magnetic resonance (MR) black-blood vessel wall imaging (BB-VWI) has been effective at visualizing normal and diseased arteries and characterizing atherosclerotic lesions, which was used in many previous clinical studies, with careful and comprehensive manual segmentation of the vessel wall. However, manual segmentation is labor-intensive and requires a high degree of training in vessel wall review. On the other hand, automatic segmentation is also challenging for complex atherosclerotic lesions and in complex arterial geometries.
+
+Vessel wall imaging (VWI) with MRI of the carotid artery has been recognized to be able to identify atherosclerotic lesions which pose an increased risk of causing clinical events. However, traditional axial acquisition MRI sequences require a long scan. To ensure patient compliance and diagnostic image quality, a fast 3D carotid black blood MRI (volume isotropic turbo spin echo acquisition, VISTA) has been developed, which allows large coverage of carotid arteries with submillimeter isotropic resolution in the coronal acquisition, and is able to depict atherosclerotic lesion burden, severity, and luminal stenosis. The sequence has potential clinical application in identifying patients with advanced lesions but its application is limited due to the complexity of 3D image review, a large number of images available, and the lack of trained radiologists with extensive experience in the evaluation of carotid vessel wall thickness.
+
+In this challenge, the task is to segment the vessel wall from 3D-VISTA images and diagnose the atherosclerotic lesions with high accuracy and robustness. And then the clinical usable measurements such as wall thickness (difference between the lumen and outer wall contours), lumen area or stenosis percent can be derived from the vessel wall segmentation. In addition, the identification of the lumen and outer wall boundary of the vessel wall is also critical for the diagnosis of lesions. In summary, this challenge focuses on carotid vessel wall segmentation and atherosclerotic lesion diagnosis.
+
+## Challenge keywords
+Vessel wall segmentation, Atherosclerotic lesion diagnosis, Carotid artery, 3D-VISTA
