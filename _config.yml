@@ -1,9 +1,17 @@
 theme: jekyll-theme-minimal
-title: GitHub pages template
-description: A simple template based on minimal jekyll theme
-show_downloads: True
+title: Carotid Vessel Wall Segmentation Challenge
+description: Carotid Vessel Wall Segmentation and Atherosclerotic Lesion Diagnosis Challenge
+show_downloads: False
 navigation:
   - title: Home
-    url: /
-  - title: Setup
-    url: setup
+    url: index
+  - title: Dataset Info
+    url: 
+  - title: Timeline
+    url: 
+  - title: Submission
+    url: 
+  - title: Organizers
+    url: 
+  - title: Leaderboard
+    url: 
